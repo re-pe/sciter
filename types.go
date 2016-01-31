@@ -41,7 +41,7 @@ const (
 var (
 	// create an resizable main window with minimize/maximize controls
 	// linux must use this combination to create the main window correctly
-	DefaultWindowCreaetFlag = SW_TITLEBAR | SW_RESIZEABLE | SW_CONTROLS | SW_MAIN | SW_ENABLE_DEBUG
+	DefaultWindowCreateFlag = SW_TITLEBAR | SW_RESIZEABLE | SW_CONTROLS | SW_MAIN | SW_ENABLE_DEBUG
 )
 
 // enum OUTPUT_SUBSYTEMS
